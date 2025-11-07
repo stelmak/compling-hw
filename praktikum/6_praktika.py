@@ -10,5 +10,5 @@ that gives computers the ability to understand text and spoken words in much the
 print('NLTK:', nltk.word_tokenize(article))
 nlp = spacy.load("en_core_web_sm")
 article_spacy = nlp(article)
-print("spaCy:", [t.text for t in article_spacy])
+print("paCy:", [t.text for t in article_spacy])
 print("Gensim", simple_preprocess(article))
